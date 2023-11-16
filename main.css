@@ -1,0 +1,275 @@
+* {
+    /* border: 1px solid red; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: -100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+    position: fixed;
+    top: 0px;
+    height: 75px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.nav-link {
+    width: 150px;
+    text-decoration: underline;
+    color: rgb(96, 95, 95);
+}
+
+.logout {
+    margin-top: -40px;
+}
+
+.nav-item {
+    margin: 25px;
+    width: 100px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+.background-image {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -40px;
+    margin-left: -60px;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    height: 1000px;
+}
+
+.welcome {
+    z-index: 1;
+    padding-top: 0px;
+    height: 1em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+}
+
+.schedule-visit {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.contact-us {
+   padding: 5px;
+   background-color: black;
+   color: white;
+}
+
+.about-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0,0,0) 40%);
+    align-items: flex-end;
+}
+
+.about {
+    font-size: 3em;
+}
+
+.container {
+    height: 400px;
+}
+
+.about-details {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.content {
+    font-size: 1em;
+}
+.meet {
+    font-size: 3em;
+}
+
+.trainer-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.main-tile-dimension {
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0,0,0) 40%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.image-container-trainer {
+    height: 20%;
+    width: 20%;
+}
+
+.trainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    flex-grow: 1;
+    background-color: black;
+}
+
+.image-1 {
+    width: 400px;
+    margin-left: -150px;
+}
+
+.image-2 {
+    width: 200px;
+    margin-left: -50px;
+}
+
+.image-3 {
+    width: 380px;
+    margin-left: -145px;
+}
+
+.trainer-name {
+    padding-top: 220px;
+}
+
+.name {
+    font-size: 1em;
+}
+
+.bottom {
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(red, rgb(44, 44, 44), blue) */
+    color: white;
+    display:grid;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+}
+
+.foot-info {
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction:column;
+    justify-content: right;
+}
+
+.info-list {
+    margin-left: -40px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    margin-left: 0px;
+}
+
+li {
+    padding: 20px;
+}
+
+.newsletter {
+    color: white;
+}
+
+.news-container {
+    padding: 10px;
+}
+
+.placeholder {
+    color: white;
+}
+
+.quicklinks {
+    color: white;
+}
+
+.quick-list {
+    display: grid;
+    grid-template-rows: auto;
+    /* padding-top: 10px; */
+}
+
+.quick-a {
+    padding: 5px;
+}
+
+.social {
+    color: white;
+}
+
+.foothead {
+    color: white;
+}
+

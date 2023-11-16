@@ -1,0 +1,117 @@
+* {
+    /* border: 1px solid red; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: rgb(96, 95, 95);
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: -100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+    position: fixed;
+    top: 0px;
+    height: 75px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.nav-link {
+    width: 150px;
+    text-decoration: underline;
+    color: rgb(96, 95, 95);
+}
+
+.logout {
+    margin-top: -40px;
+}
+
+.nav-item {
+    margin: 25px;
+    width: 100px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+.heading {
+    margin-top: 100px;
+    margin-left: 675px;
+}
+
+.header {
+    font-size: 2em;
+}
+
+.about {
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.content {
+    font-size: 1em;
+}
+
+.our-goal {
+    padding-bottom: 20px;
+}
+
+.list {
+    padding: 5px;
+    list-style-type: disc;
+    margin-left: 16px;
+}
+
+.list-item {
+    padding: 5px;
+}
+
+.list-answer {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-bottom: 12px;
+}

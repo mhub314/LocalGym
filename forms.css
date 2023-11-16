@@ -1,0 +1,123 @@
+* {
+    /* border: 1px solid red; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: -100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+    position: fixed;
+    top: 0px;
+    height: 75px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.nav-link {
+    width: 150px;
+    text-decoration: underline;
+    color: rgb(96, 95, 95);
+}
+
+.logout {
+    margin-top: -40px;
+}
+
+.nav-item {
+    margin: 25px;
+    width: 100px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+.login {
+    margin-top: 150px;
+    margin-left: 675px;
+    font-size: 3em;
+    color:white;
+}
+
+.form {
+    margin-left: 600px;
+    background-color: black;
+    border: solid gray 1px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.label {
+    color: gray;
+    margin-left: 10px;
+}
+
+.input {
+    margin-left: 10px;
+}
+
+.login-button {
+    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
+    background-color: gray;
+    margin-left: 10px;
+}
+
+.forgot-pass {
+    color: gray;
+    font-size: 1em;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.forgot-link {
+    color: white;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
